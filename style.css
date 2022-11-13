@@ -24,14 +24,13 @@ html,body{
     display: flex;
     font-family: NeueHaasReg;
     flex-direction: row;
-    bottom: 0;
+    top: 0;
 }
 
 #home{
     
     padding-left: 8px;
     padding-right: 8px;
-    border: 0.5pt solid black;
     color: black;
     padding-top: 4px;
 }
@@ -76,9 +75,9 @@ h1{
   
 #main-container{
     width: auto;
-    top: 18%;
+    top: 22%;
     cursor:move;
-    left: 15%;
+    left: 10%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -87,9 +86,9 @@ h1{
 
 #main-container-2{
     width: auto;
-    top: 24%;
+    top: 15%;
     cursor:move;
-    left: 22%;
+    left: 25%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -98,19 +97,8 @@ h1{
 
 #main-container-3{
     width: auto;
-    top: 10;
-    left: 30%;
-    cursor:move;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-}
-
-#main-container-4{
-    width: auto;
-    top: 10%;
-    left: 10%;
+    top: 35%;
+    left: 40%;
     cursor:move;
     height: auto;
     display: flex;
@@ -120,8 +108,19 @@ h1{
 
 #main-container-5{
     width: auto;
-    top: 10%;
-    left: 50%;
+    top: 22%;
+    left: 70%;
+    cursor:move;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+#main-container-4{
+    width: auto;
+    top: 15%;
+    left:  55%;
     cursor:move;
     height: auto;
     display: flex;
@@ -185,9 +184,10 @@ element:hover{
 }
 
 #readme{
-    width: 500px;
-    top: 33%;
-    left: 34%;
+    width: 460px;
+    top: 35%;
+    left: 34.37%;
+    display: none;
     height: auto;
     flex-direction: column;
     box-shadow: 0px 0px 15px 1px rgba(0,0,0,1);

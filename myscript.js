@@ -18,6 +18,16 @@ function myFunctionCloseFour()
     document.getElementById("image-block-4").setAttribute("style", "display:none;");
 }
 
+function myFunctionCloseSix()
+{
+    document.getElementById("readme").setAttribute("style", "display:none;");
+}
+
+function myFunctionCloseSeven()
+{
+    document.getElementById("readme-2").setAttribute("style", "display:none;");
+}
+
 function myFunction() {
   var x = document.getElementById("image-block");
   if (x.style.display === "block") {
@@ -53,17 +63,50 @@ function myFunctionFive() {
     x.style.display = "block";
   }
 }
+
+function myFunctionSix() {
+  var x = document.getElementById("readme");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function myFunctionSeven() {
+  var x = document.getElementById("readme-2");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+dragElement(document.getElementById("readme-2"));
+
 dragElement(document.getElementById("main-container"));
+
 dragElement(document.getElementById("main-container-2"));
+
 dragElement(document.getElementById("main-container-3"));
+
 dragElement(document.getElementById("main-container-4"));
+
 dragElement(document.getElementById("main-container-5"));
+
 dragElement(document.getElementById("image-block"));
+
 dragElement(document.getElementById("image-block-2"));
+
 dragElement(document.getElementById("image-block-3"));
+
 dragElement(document.getElementById("image-block-4"));
 
- 
+dragElement(document.getElementById("readme"));
+
+
+
+
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
