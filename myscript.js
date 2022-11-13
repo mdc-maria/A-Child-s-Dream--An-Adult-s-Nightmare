@@ -23,10 +23,7 @@ function myFunctionCloseSix()
     document.getElementById("readme").setAttribute("style", "display:none;");
 }
 
-function myFunctionCloseSeven()
-{
-    document.getElementById("readme-2").setAttribute("style", "display:none;");
-}
+
 
 function myFunction() {
   var x = document.getElementById("image-block");
@@ -73,16 +70,9 @@ function myFunctionSix() {
   }
 }
 
-function myFunctionSeven() {
-  var x = document.getElementById("readme-2");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
 
-dragElement(document.getElementById("readme-2"));
+
+
 
 dragElement(document.getElementById("main-container"));
 
