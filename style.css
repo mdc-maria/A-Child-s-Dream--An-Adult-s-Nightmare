@@ -19,14 +19,13 @@ html,body{
 #bar{
     margin-left: 2%;
     margin-top: 3%;
-    background-color: white;
+    color: white;
     position: absolute;
     display: flex;
     font-family: NeueHaasReg;
     flex-direction: row;
     top: 0;
 }
-
 
 #contentbar {
     width: 90px;
