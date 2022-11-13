@@ -1,8 +1,67 @@
+function myFunctionClose()
+{
+    document.getElementById("image-block").setAttribute("style", "display:none;");
+}
+
+function myFunctionCloseTwo()
+{
+    document.getElementById("image-block-2").setAttribute("style", "display:none;");
+}
+
+function myFunctionCloseThree()
+{
+    document.getElementById("image-block-3").setAttribute("style", "display:none;");
+}
+
+function myFunctionCloseFour()
+{
+    document.getElementById("image-block-4").setAttribute("style", "display:none;");
+}
+
+function myFunction() {
+  var x = document.getElementById("image-block");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function myFunctionTwo() {
+  var x = document.getElementById("image-block-4");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function myFunctionFour() {
+  var x = document.getElementById("image-block-3");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function myFunctionFive() {
+  var x = document.getElementById("image-block-2");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
 dragElement(document.getElementById("main-container"));
 dragElement(document.getElementById("main-container-2"));
 dragElement(document.getElementById("main-container-3"));
 dragElement(document.getElementById("main-container-4"));
 dragElement(document.getElementById("main-container-5"));
+dragElement(document.getElementById("image-block"));
+dragElement(document.getElementById("image-block-2"));
+dragElement(document.getElementById("image-block-3"));
+dragElement(document.getElementById("image-block-4"));
 
  
 
