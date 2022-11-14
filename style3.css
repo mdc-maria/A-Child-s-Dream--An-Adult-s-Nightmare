@@ -9,7 +9,7 @@
 }
 
 html,body{
-    background-image:url(backgrounds/bg1.jpeg);
+    background-image:url(backgrounds/background.png);
     background-size: cover;
     overflow: hidden;
     background-repeat: no-repeat;
