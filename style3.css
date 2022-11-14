@@ -193,13 +193,33 @@ element:hover{
     background-color: black;
 }
 
+.position-1{
+    left:5%;
+    top: 40%;
+}
+
+.position-2{
+    left:20%;
+    top: 30%;
+}
+
+.position-3{
+    left:60%;
+    top: 10%;
+}
+
+.position-4{
+    left:65%;
+    top:45%;
+}
+
 .image-container{
     width: 98%;
     margin-left: 1%;
     margin-right: 1%;
     height: 258px;
     position: relative;
-    background-image: url(pics/Img_1.jpeg);
+    background-image: url(pics/xanaduimg.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
