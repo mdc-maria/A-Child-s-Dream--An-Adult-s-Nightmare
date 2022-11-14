@@ -8,6 +8,11 @@
     src: url(fonts/NeueHaasDisplay-Mediu.ttf);
 }
 
+@font-face {
+    font-family: NeueHaasThin;
+    src: url(fonts/NeueHaasDisplay-Thin.ttf);
+}
+
 html,body{
     background-image:url(backgrounds/background3.png);
     background-size: cover;
@@ -125,7 +130,7 @@ h1{
     align-items:center;
     justify-content:center;
     margin-top: 30%;
-    line-height: 120%;
+    line-height: 125%;
     margin-left: 10%;
     margin-right: 10%;
     font-size: 12pt;
@@ -140,11 +145,8 @@ h1{
 }
 
 element{
-    border: none;
     color: blue;
-    border-bottom:  1px solid blue;
-    display: inline-block;
-    line-height: 0.90;
+    text-decoration: underline;
     background: none;
     font-family: NeueHaasReg;
     margin: 0;
@@ -165,17 +167,43 @@ element:hover{
     position: absolute;
 }
 
+.position-1{
+    left:5%;
+    top: 40%;
+}
+
+.position-2{
+    left:20%;
+    top: 30%;
+}
+
+.position-3{
+    left:60%;
+    top: 10%;
+}
+
+.position-4{
+    left:65%;
+    top:45%;
+}
+
 #readme{
     width: 460px;
     top: 35%;
     left: 34.37%;
-    display: none;
+    display: block;
     height: auto;
     flex-direction: column;
     box-shadow: 0px 0px 15px 1px rgba(0,0,0,1);
     position: absolute;
     padding-bottom: 5px;
     background-color: white;
+}
+
+span{
+    font-family: NeueHaasReg;
+    font-size: 7pt;
+    line-height: 160%;
 }
 
 #tx-about{
@@ -214,9 +242,9 @@ element:hover{
     width: 98%;
     margin-left: 1%;
     margin-right: 1%;
-    height: 258px;
+    height: 440px;
     position: relative;
-    background-image: url(pics/img_3.jpg);
+    background-image: url(pics/img_atlasofai.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -266,21 +294,33 @@ button{
 #subtitle{
     font-family: NeueHaasReg;
     font-size: 9pt;
-    width: 98%;
-    margin-left: 1%;
-    margin-top: 1%;
-    margin-right: 1%;
-    margin-bottom: 1%;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
 }
 
-#sup{
+sup{
     color: blue;
-    font-family: NeueHaasLight;
+    font-family: NeueHaasThin;
+    font-size: 7pt;
+    vertical-align: top; 
+    position: relative; 
+    top: -0.3em; 
 }
 
-.sup-5{
-    font-size: 5pt;
+#sub{
+    top: 0em; 
+    font-size: 6pt;
+    color: blue;
+    font-family: NeueHaasThin;
+    vertical-align: top; 
+    position: relative; 
+
 }
+
+
 
 
 
