@@ -170,7 +170,7 @@ element:hover{
 
 .position-1{
     left:5%;
-    top: 40%;
+    top: 20%;
 }
 
 .position-2{
@@ -221,7 +221,7 @@ span{
     width: 98%;
     margin-left: 1%;
     margin-right: 1%;
-    height: 258px;
+    height: 440px;
     position: relative;
     background-image: url(pics/Img_1.jpeg);
     background-size: cover;

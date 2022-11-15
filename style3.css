@@ -230,7 +230,7 @@ element:hover{
     margin-right: 1%;
     height: 258px;
     position: relative;
-    background-image: url(pics/img_2.jpeg);
+    background-image: url(pics/hypercard.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -241,7 +241,7 @@ element:hover{
     margin-right: 1%;
     height: 258px;
     position: relative;
-    background-image: url(pics/img_3.jpg);
+    background-image: url(pics/eliza.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -252,7 +252,7 @@ element:hover{
     margin-right: 1%;
     height: 258px;
     position: relative;
-    background-image: url(pics/img_4.jpg);
+    background-image: url(pics/cern.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -291,11 +291,11 @@ button{
 #subtitle{
     font-family: NeueHaasReg;
     font-size: 9pt;
-    width: 98%;
-    margin-left: 1%;
-    margin-top: 1%;
-    margin-right: 1%;
-    margin-bottom: 1%;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
 }
 
 sup{
