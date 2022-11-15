@@ -174,7 +174,7 @@ element:hover{
     width: 460px;
     top: 35%;
     left: 34.37%;
-    display: none;
+    display: block;
     height: auto;
     flex-direction: column;
     box-shadow: 0px 0px 15px 1px rgba(0,0,0,1);
@@ -315,6 +315,12 @@ sup{
     vertical-align: top; 
     position: relative; 
 
+}
+
+span{
+    font-family: NeueHaasReg;
+    font-size: 7pt;
+    line-height: 160%;
 }
 
 
